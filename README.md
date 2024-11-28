@@ -129,7 +129,7 @@ product_api/
 │   ├── serializers.py      # Product serializer
 │   ├── views.py            # API views
 │   ├── urls.py             # App-level URL configuration
-│   └── ...
+│   └── clients.py
 ├── client_script.py        # Python script to interact with the API
 ├── db.sqlite3              # SQLite database
 ├── manage.py               # Django management script
@@ -169,8 +169,6 @@ git commit -m "Initial commit with API and documentation"
 
 ---
 
-## Contributors
-- Darren Tanui
 
 ---
 
@@ -182,7 +180,7 @@ This project is licensed under the MIT License.
 ---
 
 ### Additional Notes:
-- `https://github.com/GibsonKingori/RESTAPI.git
+- `https://github.com/j-kingz/cat2API.git
 - Ensure the requirements.txt file is up-to-date by running:
   bash
   pip freeze > requirements.txt
